@@ -1,10 +1,13 @@
 <script setup lang="ts">
 import InputText from "./components/InputText.vue";
+const props = defineProps({
+  value: {type: String}
+})
 </script>
 
 <template>
   <main>
-    <InputText>a</InputText>
+    <InputText title="teste" v-model:inputValue="props.value"/>
   </main>
 </template>
 
