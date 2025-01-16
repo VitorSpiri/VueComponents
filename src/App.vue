@@ -1,14 +1,20 @@
 <script setup lang="ts">
-import InputText from "./components/InputText.vue";
+import Home from './pages/Home/Home.vue';
+
 </script>
 
 <template>
-  <main>
-    <InputText>a</InputText>
+  <main class="layout">
+    <Home/>
   </main>
 </template>
 
 <style scoped>
+
+.layout{
+  box-sizing: content-box;
+}
+
 header {
   line-height: 1.5;
 }
