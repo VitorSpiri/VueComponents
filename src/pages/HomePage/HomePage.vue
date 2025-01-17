@@ -5,7 +5,7 @@ import ImageCard from '@/components/ImageCard/ImageCard.vue';
 
 <template>
     <section>
-        <ImageCard />
+        <ImageCard src="/src/assets/imgs/pexels-masonamccall-19807714.jpg"/>
     </section>
 </template>
 
